@@ -1,0 +1,17 @@
+= Git-crypt test
+
+
+
+https://github.com/AGWA/git-crypt
+
+== Setup
+
+
+
+== Example
+
+
+. Create a file `john-only.secret`
+. Create a file `john-jeroen.secret`
+. Create a file `shared-key.secret`
+

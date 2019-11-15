@@ -1,0 +1,3 @@
+# Use git-crypt to encrypt secrets and keys
+*.secret filter=git-crypt diff=git-crypt
+*.key filter=git-crypt diff=git-crypt
