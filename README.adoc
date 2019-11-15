@@ -6,7 +6,7 @@ https://github.com/AGWA/git-crypt
 
 == Setup
 
-The initializer of the repository performs the following command:
+Git crypt is initialized by the following command:
 
 **git-crypt init**
 
