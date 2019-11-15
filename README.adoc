@@ -6,6 +6,24 @@ https://github.com/AGWA/git-crypt
 
 == Setup
 
+The initializer of the repository performs the following command:
+
+**git-crypt init**
+
+This initializes the repository with git crypt. Next the .gitattributes can be initialized to specify the files which are encrypted
+(See example .gitattributes above)
+
+The next commit with specified file extension will be encrypted.
+
+To share the key with collaborators perform the following command:
+
+**git-crypt export-key /path/to/key**
+
+This creates a key which can be shared (securely) and makes it possible for collaborators to decrypt the specified files.
+
+This is done by the following command:
+
+**git-crypt unlock /path/to/key**
 
 
 == Example
